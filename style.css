@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 50px;
+    border-radius: 20px;
+}
+
+
+ol{
+    list-style: none;
+
+}
+ul{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+html{
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 20px
+    
+}
+
+h1{
+    font-family: Italianno;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    color: rgb(12, 49, 161);
+}
+
+h3{
+    font-size: 16px;
+    margin-top: 1rem;
+    color: rgb(21, 45, 117);
+}
+
+h4{
+    margin-top: 0.5rem;
+    font-family: serif;
+    font-size: 14px;
+}
+
+span{
+    margin-bottom: 1rem;
+    font-family: Saira Semi Condensed ;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+
+
+.username{
+    color: rgba(12, 49, 161, 0.507);
+
+}
+
+.date{
+    display: grid;
+    justify-content: right;
+    color: rgba(36, 61, 136, 0.61);
+}
+
+body{
+   
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: auto 17ch 1fr;
+
+}
+
+
+header{
+    display: grid;
+    padding: 20px;
+    grid-template-rows:1fr 1.5rem;
+    background-color: rgb(12, 49, 161);
+    height: 5rem;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    grid-gap: 10px;
+    justify-content: center;}
+
+
+blockquote {
+    margin-bottom: 1rem;
+    padding: 10px;
+    background: #eee;
+    border: 1px solid rgb(110, 118, 235);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 55px 1fr;
+  }
+
+ 
+
+
+.second{
+    display: grid;
+    background-color: rgb(6, 61, 105);
+    color: white;
+  
+
+}
+
+.trending{
+    color: rgba(255, 255, 255, 0.767);
+}
+.trending-date{
+    display: grid;
+    justify-content: right;
+    color: white;
+}
+
+
+.third{
+    display: grid ;
+}
+
+.first-list{
+    padding: 10px;
+    list-style:decimal;
+}
+
+.tweets{
+    font-family: allan itim sans-serif;
+    padding: 0.5rem;  
+}
+
+
+
+@media screen and (max-width: 500px){
+.first-colum{
+    display: none;
+}
+    
+}
+
+@media screen and (max-width: 300px){
+    .third-colum{
+        display: none;
+        justify-content: center;
+    }
+        
+    }
